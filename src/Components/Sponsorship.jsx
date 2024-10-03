@@ -165,10 +165,71 @@ export function Sponsorship() {
                 <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
               </div>
             </div>
-
+            
             <div className=" sm:pl-8 sm:py-8 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p className="leading-relaxed text-xl mb-4 text-justify" >ICDMT 2024 offers you a unique and focused way to showcase your service, technology and solutions, explore opportunities to outreach your potential customers and touch base with them. Our Sponsorship packages are provided with a set of special privileges and a clear focus on your promotion during the conference. We are excited to invite you to participate as an exhibitor or sponsor at our upcoming IDCMT 2024 at Punjab Engineering College, Chandigarh, India. We encourage you to take advantage of the enclosed exhibitor and sponsorship opportunities while they last as we have a limited number of exhibitor spaces and they will be filled on a first-come, first-served basis. Becoming a sponsor/exhibitors you will become a part of one of the largest technology conferences in asia pacific, world's largest organization for technology professionals, network with 700+ participants - top officials from India and global tech industry; representatives from Several countries; strong pre/post event media & online coverage; multiple industry/academia partnership opportunities; join our team of 20+ long term industry partners.
               </p>
+            
+            <div className="container mx-auto">
+              <div className=" mb-10">
+                <div className=" mb-10">
+                  <div className="flex flex-wrap justify-center items-center w-full mb-2">
+                    <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                      <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
+                        Our Sponsors
+                      </h1>
+                      <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row sm:mt-10">
+              <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                <div className="w-24 h-24 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-10">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkk0FBoJ7gnuhJ9IOfPj88sZxcxWjejZ-Fg&s" alt="DEE Logo" className="w-full h-full rounded-full" />
+                </div>
+                <div className="flex flex-col items-center text-center justify-center mt-4">
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">DEE Piping Systems</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl"></h2>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
+                </div>
+              </div>
+              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p className="leading-relaxed text-xl mb-4 text-justify" >DEE Development Engineers Limited was Incorporated by the Chairman & Managing Director Mr. K.L. Bansal in the year 1988. We are an engineering company providing specialized process piping solutions for industries such as oil and gas, power (including nuclear), chemicals and other process industries through engineering, procurement and manufacturing. We have manufacturing experience of over three and a half decades and have been able to leverage our brand, strategically located manufacturing facilities and engineering capabilities to successfully expand our business.</p>
+                <a className="text-indigo-500 inline-flex items-center" href="https://www.iitr.ac.in/dic/" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row sm:mt-10">
+              <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                <div className="w-24 h-24 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-10">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Science_and_Engineering_Research_Board.png" alt="SERB Logo" className="w-full h-full rounded-full" />
+                </div>
+                <div className="flex flex-col items-center text-center justify-center mt-4">
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">SERB India</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl"></h2>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
+                </div>
+              </div>
+              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p className="leading-relaxed text-xl mb-4 text-justify" >SERB aims to build up best management systems which would match the best global practices in the area of promotion and funding of basic research.The Science and Engineering Research Board (SERB) is a statutory body established through an Act of Parliament. Supporting basic research in emerging areas of Science & Engineering are the primary and distinctive mandate of the Board. The Board structure, with both financial and administrative powers vested in the Board, would enable quicker decisions on research issues, greatly improving thereby our responsiveness to the genuine needs of the research scientists and the S&T system.</p>
+                <a className="text-indigo-500 inline-flex items-center" href="https://www.iitr.ac.in/dic/" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
 
             </div>
             <div className="container mx-auto">
