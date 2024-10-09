@@ -15,6 +15,19 @@ function PublicationPartner() {
                 </h1>
                 <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
                 <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
+            Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.
+            </p>
+            <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
+            Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.
+            </p>
+            <p className='text-3xl font-semibold p-10'>
+                Lecture Notes in Mechanical Engineering - Book series. Published by Springer and indexed by scopus.
+            </p>
+            <div className='flex flex-col xs:flex-col sm:flex-row justify-center h-1/6 m-10'>
+                <img src='https://icssmt.com/2023/Springer.png' className='rounded-lg h-1/2 my-auto mx-10'/>
+                <img src='https://www.universitetam.ru/images/cover_lnme.webp' className='rounded-lg mt-4 mx-10'/>
+            </div>
+                <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
                     Selected papers out of the papers presented in ICDMT 2024 will be  recommended for publication in journal of Composites and Advanced Materials by Sage publications having an impact factor of 1.7 after rigorous peer review by the journal.
                 </p>
                 <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
