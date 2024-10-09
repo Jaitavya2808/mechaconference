@@ -49,7 +49,7 @@ export function Home() {
                     </div>
                     <Marquee className="text-red-500 p-4">
                         <i className="fa-solid fa-bullhorn px-4 "></i><a onClick={openGoogleDocs} className="text-2xl"> Click here to download brochure</a>
-                        <i className="fa-solid fa-bullhorn px-4  "></i><p className="text-2xl">Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.</p>
+                        <i className="fa-solid fa-bullhorn px-4  "></i><p className="text-2xl">Selected papers out of the papers presented in ICDMT 2024 will be  recommended for publication in journal of Composites and Advanced Materials by Sage publications having an impact factor of 1.7 after rigorous peer review by the journal. The decision to accept or reject papers is at the sole discretion of chief editor.</p>
                         <i className="fa-solid fa-bullhorn px-4  "></i><a href="https://www.icdmt2024.com/sponsorship" target="_blank" className="text-2xl">Click to view sponsors</a>
 
                     </Marquee>
