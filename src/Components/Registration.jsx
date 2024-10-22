@@ -45,7 +45,8 @@ export function Registration() {
                 </div>
                 <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-x-auto">
                     <div className="overflow-x-auto w-full lg:w-2/3">
-                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration fees for  foreign participants (only) will be paid to the below bank details : </p>
+                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration fees for Indian participants will be paid to the below bank details : </p>
+
                         <table className="w-full mt-8 border border-gray-300 rounded-lg">
                             <thead>
                                 <tr>
@@ -84,7 +85,7 @@ export function Registration() {
                 </div>
                 <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-x-auto">
                     <div className="overflow-x-auto w-full ">
-                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration fees for Indian participants will be paid to the below bank details : </p>
+                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration fees for  foreign participants (only) will be paid to the below bank details : </p>
                         <table className="w-full mt-8 border border-gray-300 rounded-lg">
                             <thead>
                                 <tr>
@@ -120,7 +121,7 @@ export function Registration() {
                             </tbody>
                         </table>
                     </div>
-                    
+
                 </div>
 
 
