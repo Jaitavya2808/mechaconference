@@ -16,7 +16,6 @@ export function Registration() {
                     </h1>
                     <div className="h-1 w-20 bg-blue-500 rounded mx-auto mb-4"></div>
                 </div>
-
                 <div className="overflow-x-auto">
                     <Table hoverable className="w-full border border-gray-300 rounded-lg">
                         <Table.Head>
@@ -43,6 +42,8 @@ export function Registration() {
                         </Table.Body>
                     </Table>
                 </div>
+
+                <p className="text-2xl text-center text-red-600 pt-10">Please note : Registration fees is non-refundable.</p>
                 <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-x-auto">
                     <div className="overflow-x-auto w-full lg:w-2/3">
                         <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration fees for Indian participants will be paid to the below bank details : </p>
