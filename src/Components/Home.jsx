@@ -52,8 +52,14 @@ export function Home() {
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>
                     <Marquee className="text-red-500 p-4 text-center ">
-                    <i className="fa-solid fa-bullhorn px-4 "></i><a onClick={openSchedule} className="text-2xl text-red-500"> Click here to view conference schedule</a>   
+                        <i className="fa-solid fa-bullhorn px-4 "></i>
+                        <span className="text-yellow-400 font-bold animate-blink pr-4"> New</span>
+                        <a onClick={openSchedule} className="text-2xl text-red-500">
+                            Click here to view conference schedule
+                           
+                        </a>
                     </Marquee>
+                    
                     <Marquee className="text-red-500 p-4">
                         <i className="fa-solid fa-bullhorn px-4 "></i><a onClick={openGoogleDocs} className="text-2xl"> Click here to download brochure</a>
                         <i className="fa-solid fa-bullhorn px-4  "></i><p className="text-2xl">Selected papers out of the papers presented in ICDMT 2024 will be  recommended for publication in journal of Composites and Advanced Materials by Sage publications having an impact factor of 1.7 after rigorous peer review by the journal. The decision to accept or reject papers is at the sole discretion of chief editor.</p>
