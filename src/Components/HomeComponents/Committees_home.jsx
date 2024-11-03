@@ -8,6 +8,8 @@ import PJ from './PJsingh.png'
 import Rajesh from './Rajesh Kumar Bhatia.jpeg'
 import nsjassal from './nsjassal.jpg'
 import shantanubh from './shantanubh.png'
+import pankaj_kaushik from './pankaj_kaushik.jpg'
+import abhishek_kansal from './abhishek_kansal.jpg'
 export function Committees_home() {
     const navigate = useNavigate();
 
@@ -277,6 +279,24 @@ export function Committees_home() {
                                         <div className="flex-grow">
                                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Salodkar</h2>
                                             <p className="leading-relaxed text-base">Associate Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={pankaj_kaushik} />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Pankaj Kaushik</h2>
+                                            <p className="leading-relaxed text-base">Assistant Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={abhishek_kansal} />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Abhishek Kansal</h2>
+                                            <p className="leading-relaxed text-base">Assistant Professor</p>
                                         </div>
                                     </div>
                                 </div>

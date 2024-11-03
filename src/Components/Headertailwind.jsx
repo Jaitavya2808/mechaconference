@@ -11,6 +11,8 @@ import csirlogo from './csirlogo.png'
 import dsirlogo from './dsirlogo.png'
 import nserbfinal from './nserbfinal.png'
 import deefinal from './deefinal.png'
+import dstnobgfinal from './dstnobgfinal.png'
+import pccstnobg from './pccstnobg.png'
 export function Headertailwind() {
     const navigate = useNavigate();
 
@@ -42,6 +44,12 @@ export function Headertailwind() {
 </a>
 <a href="/" className="hidden sm:block">
     <img className="h-16 w-32 md:h-20 lg:h-36 lg:w-44" src={deefinal} alt="deefinal" />
+</a>
+<a href="/" className="hidden sm:block">
+    <img className="h-16 w-32 md:h-20 lg:h-36 lg:w-48" src={pccstnobg} alt="deefinal" />
+</a>
+<a href="/" className="hidden sm:block">
+    <img className="h-16 w-32 md:h-20 lg:h-36 lg:w-60" src={dstnobgfinal} alt="deefinal" />
 </a>
 <a href="/">
     <img className="h-16 w-20 md:h-20 lg:h-36 lg:w-36" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
