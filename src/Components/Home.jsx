@@ -31,6 +31,9 @@ const openTemplate = () => {
 const openSchedule = () => {
     window.open('https://drive.google.com/file/d/18Pt0-39xu08MmrNjnq6YoqTgiP7Tv2Ch/view?usp=sharing', '_blank');
 };
+const openGoogleSlides = () => {
+    window.open('https://docs.google.com/presentation/d/1k_0mclNXirU0cDKmZRnuUcgsddScB7IF/edit?usp=drive_link&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
+};
 export function Home() {
 
 
@@ -140,6 +143,7 @@ export function Home() {
                                 <marquee behavior="scroll" direction="up" scrollamount="2" onMouseOver={(e)=>{e.target.stop()}} onMouseOut={(e)=>{e.target.start()}} className="h-full w-full">
                                     <ul className=" text-xl text-white h-full flex flex-col justify-start items-start py-4 px-2 ">
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openSchedule}> View Conference Schedule</a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openGoogleSlides}> Download PPT Template</a></li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openGoogleDocs}><button>Download Conference Brochure</button></a></li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openTemplate}> <button>View Paper Template</button></a></li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a href="/sponsorship"> <button>View Sponsor Packages</button></a></li>
