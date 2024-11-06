@@ -29,7 +29,7 @@ const openTemplate = () => {
     window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
 };
 const openSchedule = () => {
-    window.open('https://drive.google.com/file/d/1-GbbFRzCKbEKz9Yw76pqwyMYIquuTEVu/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1l9zH4gy_ApKHx5yewnJ4ccMeJ2SVyUht/view?usp=sharing', '_blank');
 };
 const openGoogleSlides = () => {
     window.open('https://docs.google.com/presentation/d/1k_0mclNXirU0cDKmZRnuUcgsddScB7IF/edit?usp=drive_link&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
