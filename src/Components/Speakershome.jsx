@@ -116,7 +116,7 @@ export function Speakershome() {
             </div>
 
           </div>
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+          {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={catalin} alt="" className="h-44 w-44 rounded-full" />
             </div>
@@ -131,8 +131,8 @@ export function Speakershome() {
               <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
-          </div>
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+          </div> */}
+          {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={fernando} alt="" className="h-44 w-44 rounded-full" />
             </div>
@@ -146,8 +146,8 @@ export function Speakershome() {
               <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
-          </div>
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+          </div> */}
+          {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={paulo} alt="" className="h-44 w-44 rounded-full" />
             </div>
@@ -163,7 +163,7 @@ export function Speakershome() {
               <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
-          </div>
+          </div> */}
         </Slider>
       </div>
       <div className="flex justify-center">

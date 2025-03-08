@@ -5,6 +5,8 @@ import Jaitavya from './Jaitavya Aggarwal.jpeg'
 import bhavya from './Bhavya.jpeg'
 import ar9 from './ar9.jpeg'
 import { useNavigate } from 'react-router-dom'
+
+import profsarbjit from './profsarbjitsingh.jpeg'
 export function New_committee() {
     const navigate = useNavigate();
     return (
@@ -121,7 +123,7 @@ export function New_committee() {
                 <div className="flex flex-wrap -m-2">
                     <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/IMG_20190516_153729-01.jpeg" />
+                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={profsarbjit} />
                                 
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Sarbjit Singh</h2>

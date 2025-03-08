@@ -6,6 +6,10 @@ import nitin from './nitindixit.jpeg'
 import rakeshkumar from './rakeshkumar.jpg'
 import PJ from './PJsingh.png'
 import Rajesh from './Rajesh Kumar Bhatia.jpeg'
+import nsjassal from './nsjassal.jpg'
+import shantanubh from './shantanubh.png'
+import pankaj_kaushik from './pankaj_kaushik.jpg'
+import abhishek_kansal from './abhishek_kansal.jpg'
 export function Committees_home() {
     const navigate = useNavigate();
 
@@ -13,25 +17,37 @@ export function Committees_home() {
         <div>
 
             <div className="container mx-auto">
+                
+
                 <div className="text-center mb-10">
-                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
-                        Chief Patron
-                    </h1>
-                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-                </div>
-
-                <div className="flex flex-col items-center gap-8">
-                    {/* Chief Patron (Centered) */}
-
-                    <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl ">
-                        <img alt="Chief Patron" className="lg:w-full lg:h-full w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
-                        <div className="text-center">
-                            <h2 className="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia </h2>
-                            <h3 className="text-gray-500 mb-2">Interim Director, PEC Chandigarh</h3>
-                        </div>
+                <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 pt-5 text-gray-900">
+                    Patrons
+                </h1>
+                <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+            </div>
+            <div class="flex flex-wrap justify-center p-10 space-y-10 md:space-x-10 md:space-y-0">
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://iitr.ac.in/Institute/assets/0a5b046d07f6f971b7776de682f57c5b9cdc8fa060db7ef59de82e721c8098f4_Director_IITR.jpeg" />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Kamal Kishore Pant</h2>
+                        <h3 class="text-gray-500 mb-2">Director, IIT Roorkee</h3>
                     </div>
-                    {/* Committee Members (In a single column) */}
                 </div>
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia</h2>
+                        <h3 class="text-gray-500 mb-2">Interim Director, PEC Chandigarh</h3>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4  w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-9P_vQmoyBSzLk3Q3hEMu6kbl-zI-J2XVw&s" />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Shantanu Bhattacharya</h2>
+                        <h3 class="text-gray-500 mb-2">Director CSIR-Central Scientific Instruments Organisation (CSIR-CSIO),Chandigarh</h3>
+                    </div>
+                </div>
+            </div>
 
             </div>
             <div className="container mx-auto">
@@ -127,6 +143,15 @@ export function Committees_home() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={nsjassal} />
+                                <div className="flex-grow">
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Narinder Singh Jassal</h2>
+                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Sr. Principal Scientist, CSIR-CSIO, CHD</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
@@ -148,30 +173,31 @@ export function Committees_home() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={rakeshkumar} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Rakesh Kumar Phanden</h2>
-                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Associate Professor, Amity University Noida</p>
+                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Associate Professor, Amity University, Noida</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-wrap w-full justify-center">
-                            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                    <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByqEO63Z1Dhk65vsk7FKyGMEIJSN4tlngbUjQLLCjCA&s" />
-                                    <div className="flex-grow">
-                                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Viveksheel Rajput</h2>
-                                        <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                    <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/images/chander_kant.jpg" />
-                                    <div className="flex-grow">
-                                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Chanderkant Susheel</h2>
-                                        <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
-                                    </div>
+
+                        {/* <div className="flex flex-wrap w-full justify-center"> */}
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByqEO63Z1Dhk65vsk7FKyGMEIJSN4tlngbUjQLLCjCA&s" />
+                                <div className="flex-grow">
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Viveksheel Rajput</h2>
+                                    <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
                                 </div>
                             </div>
                         </div>
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/images/chander_kant.jpg" />
+                                <div className="flex-grow">
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Chanderkant Susheel</h2>
+                                    <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
                     </div>
                     <div className="flex flex-wrap -m-2">
                         <div className="container mx-auto">
@@ -253,6 +279,24 @@ export function Committees_home() {
                                         <div className="flex-grow">
                                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Salodkar</h2>
                                             <p className="leading-relaxed text-base">Associate Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={pankaj_kaushik} />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Pankaj Kaushik</h2>
+                                            <p className="leading-relaxed text-base">Assistant Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={abhishek_kansal} />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Abhishek Kansal</h2>
+                                            <p className="leading-relaxed text-base">Assistant Professor</p>
                                         </div>
                                     </div>
                                 </div>

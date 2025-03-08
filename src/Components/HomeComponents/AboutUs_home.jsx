@@ -14,6 +14,8 @@ import pec2 from './pec2.png'
 import pec3 from './pec3.png'
 import pec4 from './pec4.png'
 import GR from './GRLogo.png'
+import csirlogo from './csirlogo.png'
+import csirbuilding from './csirbuilding.jpg'
 export function AboutUs_home() {
   const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
     const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
@@ -194,6 +196,36 @@ export function AboutUs_home() {
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-xl mb-4 text-justify" >Indian Institute of Technology Roorkee (IIT Roorkee) is among the foremost of the institutes of national importance in higher education. The Institute has been a trend-setter in the area of education and research in the field of science, technology, and engineering with its glorious history of more than 170 years. The Design Innovation Center (DIC), named नवोन्मेष, is one of the twenty DICs being set up in the country by the Ministry of Human Resource Development (MHRD), Government of India under the national initiative for setting up of Design Innovation Center, Open Design School and National Design Innovation Network. The center will thrive for developing design and innovation as a culture while primarily addressing the relevant problems of the North-West Himalayan region and other national priority areas. It dovetails the presence of three partner institutes (spokes) – Indian Institute of Management (IIM) Kashipur, National Institute of Technology Uttarakhand (NITUK) and G B Pant University of Agriculture & Technology (GBPUA&T).</p>
+                <a className="text-indigo-500 inline-flex items-center" href="https://www.iitr.ac.in/dic/" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font">
+        <div className="container  mx-auto flex flex-col">
+          <div className="mx-auto">
+            <div className="rounded-lg overflow-hidden">
+              <img alt="content" className="object-cover object-center h-96 w-full" src={csirbuilding}></img>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:mt-10">
+              <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-white mt-10">
+                  <img src={csirlogo} alt="IIT-R Logo" className="w-full h-20" />
+                </div>
+                <div className="flex flex-col items-center text-center justify-center mt-4">
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl"> CSIR-CSIO</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl">Central Scientific Instruments Organisation</h2>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
+                </div>
+              </div>
+              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p className="leading-relaxed text-xl mb-4 text-justify" >Central Scientific Instruments Organisation (CSIO), a constituent unit of Council of Scientific & Industrial Research (CSIR), is a premier national laboratory dedicated to research, design and development of scientific and industrial instruments. It is a multi-disciplinary and multi-dimensional apex industrial research & development organisation in the country to stimulate growth of Instrument Industry in India covering wide range and applications.CSIO is a multi-disciplinary organization having well equipped laboratories manned by highly qualified and well trained staff with infrastructural facilities in the areas of Agrionics; Medical Instrumentation and Prosthetic Devices; Optics and Cockpit based Instrumentation; Fiber/Laser Optics based Sensors & Instrumentation; Analytical Instrumentation; Advanced Materials based Transducers etc. Large number of instruments ranging from simple to highly sophisticated ones, have been designed and developed by the Institute and their know-hows have been passed on to the industry for commercial exploitation. Having contributed substantially towards the growth of the scientific instruments industry in the country, CSIO enjoys high degree of credibility among the users of the instruments as well as the instrument industry.</p>
                 <a className="text-indigo-500 inline-flex items-center" href="https://www.iitr.ac.in/dic/" target="_blank" rel="noopener noreferrer">
                   Learn More
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

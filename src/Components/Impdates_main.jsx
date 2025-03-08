@@ -24,7 +24,7 @@ export function Impdates_main() {
               <div className="main-timeline">
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">15th August</span>
+                    <span className="timeline-year">15th September</span>
                     <div className="timeline-icon">
                       <i className="fa-regular fa-newspaper"></i>
                     </div>
@@ -44,7 +44,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">15th September</span>
+                    <span className="timeline-year">30th September</span>
                     <div className="timeline-icon">
                       <i className="fa-solid fa-envelope"></i>
                     </div>
@@ -64,7 +64,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">30th September</span>
+                    <span className="timeline-year">15th October</span>
                     <div className="timeline-icon">
                       <i className="fa-brands fa-readme pl-10"></i>
                     </div>
@@ -103,7 +103,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">15th October</span>
+                    <span className="timeline-year">25th October</span>
                     <div className="timeline-icon">
                       <i className="fa-solid fa-bullhorn"></i>
                     </div>

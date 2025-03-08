@@ -505,6 +505,69 @@ export function Callforpapers_home() {
 
                         </div>
                     </div>
+                    <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl ">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://www.aiche.org/sites/default/files/styles/aiche_content/public/images/pageset/lead/materials.jpg?itok=jJc3j1x6" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
+                        <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
+                        </div>
+                        <div className="p-4 text-center" >
+                            <p className=" font-semibold mb-2 text-2xl">Track -7 </p>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Sustainable Circular Bio Economy</h3>
+                            <ul className='text-left'>
+                                <li>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Sustainable Manufacturing Practices</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Smart Manufacturing and Industry 4.0</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Precision Engineering and Design</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Agriculture and Rural Innovations</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Energy Efficiency and Management</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <div class="flex items-center space-x-3">
+                                            <div><i class="fa-solid fa-earth-americas"></i></div>
+                                            <div>Waste Management and Resource Recovery</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
                     {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
                         <div className="absolute inset-0 z-0">
                             <img src="https://nenews.in/wp-content/uploads/2022/12/Railway-Coach-Factory.jpg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />

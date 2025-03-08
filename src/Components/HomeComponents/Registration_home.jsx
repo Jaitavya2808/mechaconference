@@ -64,7 +64,7 @@ export function Registration_home() {
                             <i className="fa-solid fa-hand-point-right pr-2"></i> The decision about the acceptance of paper for final publication will be entirely taken by the Editor in Chief. Conference organizers and or journal editors reserve the right to remove the paper at any stage from the publication process because of non ensuring the paper quality and or ethical guidelines by the authors.
                         </p>
                     </div>
-
+                    <p className="text-2xl text-center text-red-600 pt-10">Please note : Registration fees is non-refundable.</p>
                     <div className="flex justify-center">
                         <a className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block mt-10 mb-5" href="/registration">Proceed To Register</a>
                     </div>

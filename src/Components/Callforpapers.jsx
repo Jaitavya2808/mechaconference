@@ -6,6 +6,9 @@ export function Callforpapers() {
     const openGoogleDocs = () => {
         window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
     };
+    const openGoogleSlides = () => {
+        window.open('https://docs.google.com/presentation/d/1k_0mclNXirU0cDKmZRnuUcgsddScB7IF/edit?usp=drive_link&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
+    };
 
 
 
@@ -29,21 +32,13 @@ export function Callforpapers() {
         "Real Time Supervisory Control"
     ];
     const items = [
-        "Adaptive suspension System for railway coach",
-        "Sensors and actuators for railway coach",
-        "Real-time monitoring of rail coaches",
-        "Implementation of IoT and AI in railway coaches",
-        "Innovative solutions to reduce noise and vibrations in rolling stock",
-        "Advanced techniques for vibration analysis in railway coaches",
-        "Automation in railway coaches",
-        "3D and 4D printing in railway coach components",
-        "Additive manufacturing in railway coach components",
-        "Smart materials in railway coach components",
-        "Sustainable and green materials",
-        "Risk assessment and mitigation strategies",
-        "Innovative design approaches for safety, comfort, and aesthetics",
-        "Big data analytics for predictive maintenance",
-        "Government initiatives impacting the railway industry"
+        "Sustainable Manufacturing Practices",
+        "Smart Manufacturing and Industry 4.0",
+        "Precision Engineering and Design",
+        "Agriculture and Rural Innovations",
+        "Energy Efficiency and Management",
+        "Waste Management and Resource Recovery",
+        "Innovation and Entrepreneurship in Manufacturing"
     ];
     const itemsTrack6 = [
         "Parallel and Serial manipulators",
@@ -87,7 +82,6 @@ export function Callforpapers() {
         "Computational Applied Mechanics",
         "Fracture and Failure Mechanics",
         "Modelling & Simulation of Composite structures",
-        "Product Design and Development",
         "Tribology",
         "Nano mechanics and MEMS",
         "Vibrations Analysis",
@@ -97,6 +91,9 @@ export function Callforpapers() {
         "Health monitoring and inspection techniques for Engineering structures",
         "Multi-scale analysis",
         "Optimization techniques and methods in Engineering structures",
+        "Product Design and Development",
+        "Interactive Design",
+        "UI/UX Design",
         "Automation & Robotics, Mechatronics"
     ];
 
@@ -289,8 +286,8 @@ export function Callforpapers() {
                                             ))}
                                         </nav>
                                     </div>
-                                    {/* <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
-                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Railway Vehicle Dynamics</h2>
+                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Sustainable Circular Bio Economy</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {items.map((item, index) => (
                                                 <a key={index} >
@@ -306,7 +303,7 @@ export function Callforpapers() {
 
                                             ))}
                                         </nav>
-                                    </div> */}
+                                    </div>
 
                                 </div>
                             </div>
@@ -382,6 +379,36 @@ export function Callforpapers() {
                                 </g>
                             </svg>
                             <span className="texto">Download Template</span>
+                        </button>
+                        <button className="botao" onClick={openGoogleSlides}>
+                            <svg
+                                className="mysvg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                height="24px"
+                                width="24px"
+                            >
+                                <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                <g
+                                    stroke-linejoin="round"
+                                    stroke-linecap="round"
+                                    id="SVGRepo_tracerCarrier"
+                                ></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="Interface / Download">
+                                        <path
+                                            stroke-linejoin="round"
+                                            stroke-linecap="round"
+                                            stroke-width="2"
+                                            stroke="#f1f1f1"
+                                            d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                            id="Vector"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span className="texto">Download PPT Template</span>
                         </button>
                         <a
                             href="https://cmt3.research.microsoft.com/docs/help/pdfs/small_conference_guide.pdf" target="_blank"

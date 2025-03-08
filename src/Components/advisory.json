@@ -41,7 +41,7 @@
             "area_of_research": ""
         },
         {
-            "name": "Sam Anand",
+            "name": "Dr. Sam Anand",
             "designation": "Professor",
             "institute": "University of Cincinnati",
             "emailid": "anands@ucmail.uc.edu",
@@ -87,14 +87,6 @@
             "emailid": "ravib@iitj.ac.in",
             "mobile_number": "Phone: 0291 280 1503",
             "area_of_research": "Design, Dynamics, Vibration and Control"
-        },
-        {
-            "name": "Dr. Apurbba Kumar Sharma",
-            "designation": "Professor",
-            "institute": "IIT Roorkee",
-            "emailid": "aks[at]me.iitr.ac.in",
-            "mobile_number": "91-1332-285421",
-            "area_of_research": "Micromachining, Fabrication of Microchannels, Microholes, their characterisation., Advanced Manufacturing Processes, Hybrid Finishing Processes,Microwave Material Processing,"
         },
         {
             "name": "Dr. Dheerendra Kr. Dwivedi",
@@ -178,7 +170,7 @@
         },
         {
             "name": "Dr. Mohd. Talha",
-            "designation": "Professor",
+            "designation": "Associate Professor",
             "institute": "IIT Mandi",
             "emailid": "",
             "mobile_number": "",
@@ -218,7 +210,7 @@
         },
         
         {
-            "name": "Mrityunjay Doddamani",
+            "name": "Dr. Mrityunjay Doddamani",
             "designation": "Associate Professor",
             "institute": "IIT Mandi",
             "emailid": "mrityunjay@iitmandi.ac.in",
@@ -226,7 +218,7 @@
             "area_of_research": "Additive Manufacturing, Syntactic Foams"
         },
         {
-            "name": "Sanat Agrawal",
+            "name": "Dr. Sanat Agrawal",
             "designation": "Associate Professor",
             "institute": "NIT, Uttrakhand",
             "emailid": "sanata@nituk.ac.in",
@@ -240,6 +232,14 @@
             "emailid": "dhiraj.mahajan@iitrpr.ac.in",
             "mobile_number": "7814252244",
             "area_of_research": "Hydrogen Embrittlement of Metals, High-Pressure Hydrogen Storage, Bioabsorbable Polymeric Stents, Fracture & Fatigue Behavior of Metals"
+        },
+        {
+            "name": "Dr. Sunny Zafar",
+            "designation": "Associate Professor",
+            "institute": "IIT Mandi",
+            "emailid": "sunnyzafar@iitmandi.ac.in",
+            "mobile_number": "01905-267268",
+            "area_of_research": "Advanced Manufacturing Processes for Polymer Composites, Sustainable Biocomposites, Recycling of Polymer Composites"
         },
         {
             "name": "Dr. V S Nagendra Reddy B",
@@ -272,14 +272,6 @@
             "emailid": "jameelazher@nitsri.net",
             "mobile_number": "8715028970",
             "area_of_research": "Advanced Computational Mechanics, XFEM, EFGM, XIGA, Coupled Techniques, Nonlinear Structural Analysis,"
-        },
-        {
-            "name": "Dr. Sunny Zafar",
-            "designation": "Assistant Professor",
-            "institute": "IIT Mandi",
-            "emailid": "sunnyzafar@iitmandi.ac.in",
-            "mobile_number": "01905-267268",
-            "area_of_research": "Advanced Manufacturing Processes for Polymer Composites, Sustainable Biocomposites, Recycling of Polymer Composites"
         },
         {
             "name": "Dr. Swati Sharma",
